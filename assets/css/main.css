@@ -1706,6 +1706,14 @@
     .iwantyoutobeinthemiddle {
         text-align: center;
     }
+ 
+    .choreonote  {
+        margin-top: 30px;
+    }
+
+    .participation  {
+        margin-top:30px;
+    }
 
 
 /* Loader */
@@ -2506,29 +2514,22 @@
 				width: 100%;
 			}
 
-        .contentwriting {
-            width:200px;
-            height:120px;
-        }
 
-        .contentwriting img {
-            width:50%;
-            height: auto;
-        }
 
-        .twotrickypic {
-            border-left: auto;
-            border-right:auto;
-        }
-
-        .image.design {
+        .image.designpic {
             display:block;
-            margin-left: 100px;
-            margin-right: 100px;
-            width:120px;
-            height:auto;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50px;
+         
+        }
 
-            
+        .picfortccontent {
+            display:inline-block;
+            margin-left: auto;
+            margin-right:auto;
+            height: 40px;
+            text-align: center;
         }
 
 /* List */
