@@ -222,6 +222,7 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+
 	}
 
 	.row > * {
@@ -2158,6 +2159,12 @@
 		margin: 4em 0 0 0;
 	}
 
+/* Descriptions */
+
+
+
+
+
 /* Form */
 
 	form {
@@ -2456,6 +2463,7 @@
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
 
+
 /* Image */
 
 	.image {
@@ -2530,6 +2538,17 @@
             margin-right:auto;
             height: 40px;
             text-align: center;
+        }
+
+        .arrow {
+            margin-top: 16px;
+            margin-bottom:9px;
+            margin-left: 2;
+            
+        }
+
+        .nameshuli{
+            margin-bottom: 40px;
         }
 
 /* List */
@@ -3298,8 +3317,9 @@
 		left: 0;
 		line-height: 3.5em;
 		position: fixed;
-		top: 0;
+		top: 5px;
 		width: 100%;
+        right: 10px;
 		z-index: 100;
 	}
 
@@ -3314,7 +3334,7 @@
 
 		#header nav {
 			position: absolute;
-			right: 1em;
+			right: 1em; 
 			top: 0;
 		}
 
