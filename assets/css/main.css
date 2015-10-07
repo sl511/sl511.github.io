@@ -244,7 +244,7 @@
 	}
 
 	.row.uniform > * > :last-child {
-		margin-bottom: 0;
+		margin-bottom: auto;
 	}
 
 	.row.\30 \25 > * {
@@ -2516,6 +2516,7 @@
 			margin-left:auto;
             margin-right:auto; 
 			width: 60%;
+
 		}
 
 			.image.fit img {
@@ -2993,7 +2994,7 @@
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+
 			content: '';
 			display: block;
 			height: 100%;
@@ -3079,11 +3080,11 @@
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #1073bc;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #fefd24;
 		}
 
 		.spotlight.inactive .content {
@@ -3129,6 +3130,32 @@
 	body.is-touch .spotlight {
 		background-attachment: scroll;
 	}
+
+
+
+/* descriptions */
+
+
+
+.fblogo {
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    width:30%;
+    
+}
+
+#picturesofcontentwriting{
+    text-align:center;
+}
+
+
+.descriptionofsections {
+    padding-top: 25px;
+}
+
+
+
 
 /* Wrapper */
 
